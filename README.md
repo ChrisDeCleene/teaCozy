@@ -27,7 +27,7 @@
 
 ## Features
 - Mobile Device Responsive
-- CSS Flex
+- CSS Flexbox
 - Parallax effect
 
 
