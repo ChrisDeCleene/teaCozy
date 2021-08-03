@@ -1,0 +1,190 @@
+/*****************************************************************
+RESET DEFAULT
+*****************************************************************/
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html{
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a{
+  color: inherit;
+}
+
+/*****************************************************************
+HEADER STYLING
+*****************************************************************/
+
+header{
+  background-color: black;
+  opacity: 0.9;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid seashell;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  margin: 0 10px;
+}
+
+nav img{
+  height: 50px;
+}
+
+nav li{
+  display: inline;
+  margin-left: 1rem;
+}
+
+/*****************************************************************
+MAIN STYLING
+*****************************************************************/
+
+main{
+  margin-top: 69px;
+}
+
+/*****************************************************************
+MISSION STYLING
+*****************************************************************/
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  max-width: 1200px;
+  background-image: url("../images/mission-background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+#mission div{
+  background-color: black;
+  width: 100%;
+  line-height: 2.5rem;
+}
+
+/*****************************************************************
+FEATURED TEA STYLING
+*****************************************************************/
+
+#featuredtea{
+  max-width: 1000px;
+  min-height: 750px;
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+#featuredtea h2, #featuredtea p{
+  margin: 10px auto;
+}
+
+#featuredtea .container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#featuredtea .box{
+  width: 300px;
+  margin: 10px;
+}
+
+#featuredtea .box img{
+  height: 200px;
+  width: 300px;
+}
+
+
+/*****************************************************************
+LOCATIONS STYLING
+*****************************************************************/
+
+#locations{
+  background-image: url("../images/locations-background.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  min-height: 500px;
+  margin: auto;
+}
+
+#locations .container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+#locations .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  margin: 15px 20px;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+}
+
+.box .item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 25%;
+}
+
+/*****************************************************************
+FOOTER STYLING
+*****************************************************************/
+
+footer div{
+  display: flex;
+  flex-flow: row wrap;
+  height: 200px;
+}
+
+footer h2, footer h5{
+  width: 100%;
+  margin-top: 15px;
+}
+
+footer p{
+  text-align: left;
+  padding: 20px;
+}
+
+/***************************************************************
+MOBILE DEVICES
+***************************************************************/
+@media only screen and (max-width: 570px){
+  nav li{
+    font-size: 12px;
+    margin-left: 0.5rem;
+  }
+}
