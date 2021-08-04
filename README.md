@@ -1,4 +1,4 @@
-# Chris DeCleene's HTML/CSS Cheatsheet
+# The Tea Cozy (CSS Flexbox)
 > The focus of this project was to create a website for a fictional tea shop using the CSS Flexbox layout. The use of flexbox and a little responsive CSS creates a seemless look on all devices. I built this as part of the Full Stack Engineer Career Path on [Codecademy](https://www.codecademy.com/learn). Please share any feedback regarding this project! Happy coding!
 
 ## Table of Contents
